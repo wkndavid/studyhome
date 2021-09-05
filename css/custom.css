@@ -1,0 +1,31 @@
+body, html {
+    font-family: 'Roboto', sans-serif;
+}
+h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+#header {
+    width: 100%;
+    background-color: transparent;
+    transition: background ease-in-out .2s;
+    background-color: #004247;
+}
+#header .navbar-collapse {
+    width: auto;
+}
+.nav-link:hover {
+    border-bottom: solid 4px #64a8a8;
+}
+.navbar-collapse.collapse{
+    justify-content: flex-end;
+    padding: 25px;
+    font-weight: 500;
+}
+.navbar {
+    padding: 0px;
+}
+
+b.tn.btn-dark {
+    justify-content: center;
+}
